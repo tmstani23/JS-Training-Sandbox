@@ -1,0 +1,12 @@
+Asynchronicity:
+
+In a synchronous programming model, things happen one at a time. When you call a function that performs a long-running action, 
+it returns only when the action has finished and it can return the result. This stops your program for the time the action takes.
+An asynchronous model allows multiple things to happen at the same time. When you start an action, your program continues to run. 
+When the action finishes, the program is informed and gets access to the result (for example, the data read from disk).
+
+Callbacks:
+Simply put: A callback is a function that is to be executed after another function has finished executing — hence the name ‘call back’.
+More complexly put: In JavaScript, functions are objects. Because of this, functions can take functions as arguments, 
+and can be returned by other functions. Functions that do this are called higher-order functions. 
+Any function that is passed as an argument is called a callback function.
